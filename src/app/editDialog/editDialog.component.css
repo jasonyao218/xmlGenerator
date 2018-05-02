@@ -1,0 +1,75 @@
+.editDialog-content{
+  margin-top: 20px;
+  overflow-y: scroll;
+  height: 230px;
+}
+
+.editDialogTextEdit{
+  width: 200px;
+  margin-right: 20px;
+}
+
+#newValueBtn{
+  background-color: lightblue;
+}
+
+.blackText{
+  color: black !important;
+}
+
+#newVarBox{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  height: 60%;
+  width: 70%;
+  border: 2px solid lightgreen;
+  border-radius: 5px;
+  background-color: white;
+  padding-left: 35px;
+  padding-right: 15px;
+}
+
+.float-right-bottom{
+  position: absolute;
+  right:0;
+  bottom:0;
+}
+
+.relative{
+  position: relative;
+  height: 85%;
+}
+
+
+
+/* dragula */
+
+.gu-mirror {
+  position: fixed!important;
+  margin: 0!important;
+  z-index: 9999!important;
+  opacity: .8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+}
+
+.gu-hide {
+  display: none!important
+}
+
+.gu-unselectable {
+  -webkit-user-select: none!important;
+  -moz-user-select: none!important;
+  -ms-user-select: none!important;
+  user-select: none!important;
+  z-index: 9999 !important;
+}
+
+.gu-transit {
+  opacity: .2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  filter: alpha(opacity=20);
+  z-index: 9999!important;
+  
+}

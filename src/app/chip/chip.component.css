@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Draggable*/
+
+.drag-border {
+  outline: #4286f4 dashed;
+}
+
+.drag-handle {
+  cursor: move;
+  /* fallback if grab cursor is unsupported */
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+.drag-handle:active {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+
+
+/* Droppable */
+
+.drag-hint-border {
+  outline: #3c763d dashed !important;
+  margin: 2px;
+}
+
+.drag-over-border {
+  outline: #fbbc05 dashed !important;
+  margin: 2px;
+}
+
+
+/* other */
+
+.chip {
+  display: flex;
+  background: #dedede;
+  margin: 4px;
+  border-radius: 10px;
+}
+
+.colortag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #00ff7f;
+  border-radius: 10px 0 0 10px;
+  padding: 5px;
+  color: white;
+}
+
+.rightWrapper {
+  padding: 5px 8px 5px 8px;
+  width: 100%;
+}
+
+.toprightWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.btnZone {
+  white-space: nowrap;
+  width: 20px;
+  align-self: flex-end;
+  vertical-align: middle;
+  overflow: hidden;
+  color: #757575;
+  transition: width 0.5s ease;
+  will-change: width;
+  cursor: pointer;
+  text-align: center;
+  padding-right: 5px;
+}
+
+.textZone {
+  vertical-align: middle;
+  margin-right: 7px;
+}
+
+.valuesZone {
+  border-top: 1px solid gray;
+  margin-top: 6px;
+  padding: 4px;
+}
+
+.expandedHoriChip {
+  width: 80px;
+}
+
+.expandedHoriChip i {
+  width: 10px;
+  margin: 0 4px 0 4px;
+}
+
+.unexpandedHoriChip {
+  width: 20px;
+}
+
+.expandVertChip {
+  max-height: 999px;
+}
+
+.warnBorder {
+  border-right: 2px solid red;
+}
+
+.hide {
+  display: none;
+}
+
+.valuesTable {
+  border-collapse: collapse;
+}
+
+.valuesTable tr {
+  margin: 2px 5px;
+  float: left;
+}
+
+td {
+  text-align: middle;
+  padding: 0 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+th{
+  text-align: middle;
+  padding: 0 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
